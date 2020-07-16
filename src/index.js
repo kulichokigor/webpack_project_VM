@@ -1,6 +1,8 @@
 import {person} from './modules/config.data';
 import AppServiceExport from './modules/app.service';
-import './modules/header.components'
+import './modules/header.components';
+import './css/index.css';
+
 
 console.log("Name object: ", person.name)
 

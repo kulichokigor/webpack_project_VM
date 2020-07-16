@@ -1,0 +1,13 @@
+@import './header.css';
+@import './footer.css';
+
+#root{
+    font-size: 30px;
+    color: blueviolet;
+    border: 2px solid rgba(152, 5, 189, 0.664);
+    margin: 15px auto;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+}
