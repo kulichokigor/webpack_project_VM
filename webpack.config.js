@@ -29,5 +29,10 @@ module.exports = {
                 use:[MiniCssExtractPlugin.loader,'css-loader']
             }
         ]
+    },
+    devServer:{
+        contentBase:path.join(__dirname,'dist'),
+        compress: true,
+        port: 8989
     }
 }
