@@ -6,7 +6,7 @@ import './css/index.css';
 
 console.log("Name object: ", person.name)
 
-const service_app = new AppServiceExport('this title work!')
+const service_app = new AppServiceExport('TEXT!!!!')
 
 service_app.testFunc()
 
